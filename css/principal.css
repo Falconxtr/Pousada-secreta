@@ -60,7 +60,7 @@ body {
 
 .secao-banner div {
     color: #fff;
-    background-color: rgba(33, 132, 123, 0.5);
+    background-color: rgba(33, 132, 123, 0.7);
     border: 1px solid #fff;
     padding: 40px;
     text-align: center;
@@ -165,14 +165,110 @@ body {
 .secao-pousada {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 60px;
 }
 
-.secao-pousada img {
-    height: 120px;
-    width: 120px;
+.pousada-card img {
+    height: 100px;
+    width: 90px;
+    position: relative;
+    right: 35px;
+}
+
+.pousada-card h3 {
+    position: relative;
+    bottom: 15px;
 }
 
 .pousada-card {
     width: 50%;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
 }
+
+.card-conteudo {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-margem {
+    margin-bottom: 5px;
+}
+
+/* Seção Rodapé */
+.secao-rodape {
+    background-color: #49997c;
+    height: 155px;
+    color: #fff;
+}
+
+.secao-rodape a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.secao-rodape-conteudo {
+    height: 90px;
+    width: 930px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.secao-rodape-conteudo h4 {
+    font-size: 20px;
+    width: 180px;
+}
+
+.secao-rodape-conteudo p {
+    width: 240px;
+}
+
+.paragrafo1, .paragrafo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-rodape-conteudo .paragrafo1::before{
+    content: "";
+    width: 55px;
+    height: 40px;
+    background-image: url('../assets/icones/endereco.png');
+    background-size: 40px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 6px 0 0;
+}
+
+.secao-rodape-conteudo .paragrafo2::before{
+    content: "";
+    width: 55px;
+    height: 40px;
+    background-image: url('../assets/icones/telefone.png');
+    background-size: 40px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 6px 0 0;
+}
+
+
+.secao-rodape-copyright {
+    height: 35px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 3px solid #3f8e71;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
