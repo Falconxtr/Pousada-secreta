@@ -34,8 +34,8 @@ body {
 
 .secao-topo .logo {
     font-size: 24px;
-    color: #3d3d3d;
     text-decoration: none;
+    color: #3d3d3d;
 }
 
 .secao-topo span {
@@ -53,36 +53,15 @@ body {
 /* Seção Banner */
 .secao-banner {
     background-image: url('../assets/img-fundo.jpg');
-    height: 600px;
+    height: 180px;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.secao-banner div {
-    color: #fff;
-    background-color: rgba(33, 132, 123, 0.7);
-    border: 1px solid #fff;
-    padding: 40px;
-    text-align: center;
-}
-
-.secao-banner div h1 {
-    font-size: 54px;
-    margin-bottom: 35px;
-}
-
-.secao-banner div p {
-    font-size: 28px;
-    font-weight: 500;
-}
-
-/* Seção Quartos*/
+/* Seção Quarto*/
 .secao-quartos-conteudo {
     text-align: center;
-    padding: 60px;
+    padding-top: 60px;
 }
 
 .secao-quartos-conteudo h2 {
@@ -96,111 +75,46 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-}
-
-.secao-quartos img {
-    width: 315px;
-}
-
-.secao-quartos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.secao-quartos a {
-    text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 600;
-    padding: 20px;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    border-bottom: 2px solid #437870;
-}
-
-/* Seção Rotas */
-.secao-rotas-conteudo {
-    text-align: center;
-    padding-top: 60px;
-}
-
-.secao-rotas-conteudo h2 {
-    font-size: 38px;
-    font-weight: 400;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.secao-rotas-conteudo p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
     margin-bottom: 35px;
 }
 
-/* Seção Pousada */
-.secao-pousada-conteudo {
-    text-align: center;
-    padding-top: 60px;
+.secao-quartos-imagens img {
+    width: 305px;
+    height: 200px;
 }
 
-.secao-pousada-conteudo h2 {
-    font-size: 38px;
-    font-weight: 400;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.secao-pousada-conteudo p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 35px;
-}
-
-.secao-pousada {
+.secao-quartos-imagens {
     display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 60px;
+    align-items: center;
+    justify-content: space-around;
+    width: 930px;
+    margin: 0 auto;
 }
 
-.pousada-card img {
-    height: 100px;
-    width: 90px;
-    position: relative;
-    right: 35px;
+.lista {
+    padding-top: 40px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-.pousada-card h3 {
-    position: relative;
-    bottom: 15px;
+.lista h3 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
-.pousada-card {
-    width: 50%;
-    padding: 10px;
+.lista-topicos {
     display: flex;
     justify-content: space-between;
-    gap: 35px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 auto;
 }
 
-.card-conteudo {
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.card-margem {
-    margin-bottom: 5px;
+.lista-topicos li {
+    width: 23%;
+    text-align: left;
 }
 
 /* Seção Rodapé */
@@ -208,6 +122,7 @@ body {
     background-color: #49997c;
     height: 155px;
     color: #fff;
+    margin-top: 60px;
 }
 
 .secao-rodape a {
@@ -284,4 +199,3 @@ body {
     padding-top: 15px;
     font-weight: bold;
 }
-
