@@ -1,8 +1,14 @@
 /* Configuração Geral */
 * {
     box-sizing: border-box;
+}
+  
+body {
     margin: 0;
     padding: 0;
+    color: #3d3d3d;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
 }
 
 .limita-secao {
@@ -10,19 +16,12 @@
     margin: 0 auto;
 }
 
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #3d3d3d;
-}
-
 /* Seção Topo*/
 .position-fixed {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
     background-color: #fff;
-    border-bottom: 1px solid #87cce7;
+    border-bottom: 1px solid #d5d5d5;
 }
 
 .secao-topo {
@@ -65,13 +64,12 @@ body {
     color: #fff;
     background-color: rgba(33, 132, 123, 0.7);
     border: 1px solid #fff;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
 }
 
 .secao-banner div h1 {
     font-size: 54px;
-    margin-bottom: 35px;
 }
 
 .secao-banner div p {
@@ -82,7 +80,6 @@ body {
 /* Seção Quartos*/
 .secao-quartos-conteudo {
     text-align: center;
-    padding: 60px;
 }
 
 .secao-quartos-conteudo h2 {
@@ -129,13 +126,12 @@ body {
 /* Seção Rotas */
 .secao-rotas-conteudo {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .secao-rotas-conteudo h2 {
     font-size: 38px;
     font-weight: 400;
-    padding-bottom: 20px;
     text-transform: uppercase;
 }
 
@@ -143,145 +139,95 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-bottom: 35px;
 }
 
 /* Seção Pousada */
-.secao-pousada-conteudo {
+.secao-container {
     text-align: center;
-    padding-top: 60px;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
-
-.secao-pousada-conteudo h2 {
-    font-size: 38px;
-    font-weight: 400;
-    padding-bottom: 20px;
+  
+.secao-container h2{
+    font-size: 32px;
+    font-weight: 500;
     text-transform: uppercase;
-}
+}  
 
-.secao-pousada-conteudo p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 35px;
+img {
+    width: 100%;
 }
-
-.secao-pousada {
+  
+.descricoes {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 60px;
-}
-
-.pousada-card img {
-    height: 100px;
-    width: 90px;
-    position: relative;
-    right: 35px;
-}
-
-.pousada-card h3 {
-    position: relative;
-    bottom: 15px;
-}
-
-.pousada-card {
-    width: 50%;
-    padding: 10px;
-    display: flex;
     justify-content: space-between;
-    gap: 35px;
+    padding-bottom: 50px;
 }
 
-.card-conteudo {
-    width: 350px;
+.descricao {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.card-margem {
-    margin-bottom: 5px;
+  
+.descricao-conteudo {
+    flex: 1 1 auto;
+}
+  
+.descricao-img {
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left:10px;
 }
 
 /* Seção Rodapé */
-.secao-rodape {
-    background-color: #49997c;
-    height: 155px;
-    color: #fff;
+.rodape {
+    background-color: #49997d;
+    color:#fff;
+}
+  
+.rodape h4 {
+    font-size: 22px;
 }
 
-.secao-rodape a {
+.rodape-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape-info {
+    width: 23%;
+    display: flex;
+    align-items: center;
+}
+
+.rodape-link{
+    margin-right: 10px;
     color: #fff;
     text-decoration: none;
 }
 
-.secao-rodape-conteudo {
-    height: 90px;
-    width: 930px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 0;
-}
-
-.secao-rodape-conteudo h4 {
-    font-size: 20px;
-    width: 180px;
-}
-
-.secao-rodape-conteudo p {
-    width: 230px;
-}
-
-.paragrafo1, .paragrafo2, .paragrafo3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.secao-rodape-conteudo .paragrafo1::before{
-    content: "";
-    width: 55px;
+.rodape-icone {
+    width: 40px;
     height: 40px;
-    background-image: url('../assets/icones/endereco.png');
-    background-size: 40px 40px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-right: 6px;
+    margin-right: 10px;
 }
 
-.secao-rodape-conteudo .paragrafo2::before{
-    content: "";
-    width: 55px;
-    height: 40px;
-    background-image: url('../assets/icones/telefone.png');
-    background-size: 40px 40px;
-    background-position: center;
-    background-repeat: no-repeat;
+.rodape-info a{
+    text-decoration: none;
+    color: #fff;
 }
 
-.secao-rodape-conteudo .paragrafo3::before{
-    content: "";
-    width: 55px;
-    height: 40px;
-    background-image: url('../assets/icones/calendario.png');
-    background-size: 40px 40px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-right: 6px;
-}
-
-.secao-rodape-copyright {
-    height: 35px;
-    width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.rodape-copyright {
     text-align: center;
-    border-top: 3px solid #3f8e71;
-    margin: 0 auto;
-    padding-top: 15px;
-    font-weight: bold;
+    padding: 20px;
+    border-top: 1px solid #3b7863;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
 }
-
