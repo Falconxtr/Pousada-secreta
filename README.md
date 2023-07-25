@@ -9,7 +9,8 @@ A proposta desse projeto é criar uma página utilizando os conceitos abaixo:
 Neste projeto não exploraremos a parte responsiva do CSS (adaptação para telas de celular) para facilitar o processo de aprendizado/prática.
 
 ## O layout da página princial que será criado pode ser visto abaixo
-
+![image](https://github.com/Falconxtr/Pousada-secreta/assets/137830852/3d23e845-8df0-4ae8-9474-e537be3ec1bf)
 
 ## O layout da página quartos que será criado pode ser visto abaixo
-https://www.devmedia.com.br/arquivos/projeto_guiado/front-end/primeira_pagina_web_pousada/layout-pagina-quartos-estilizada.jpeg
+![image](https://github.com/Falconxtr/Pousada-secreta/assets/137830852/b03c884a-5967-4f67-89ab-8501b1c5be93)
+
