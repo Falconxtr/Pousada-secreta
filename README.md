@@ -10,8 +10,6 @@ A proposta desse projeto é criar uma página utilizando os conceitos abaixo:
   - Navegação entre páginas;
   - Estilizar uma página.
 
-Neste projeto não exploraremos a parte responsiva do CSS (adaptação para telas de celular) para facilitar o processo de aprendizado/prática.
-
 ## O layout da página princial que será criado pode ser visto abaixo
 ![image](https://github.com/Falconxtr/Pousada-secreta/assets/137830852/3d23e845-8df0-4ae8-9474-e537be3ec1bf)
 
