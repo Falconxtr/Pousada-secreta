@@ -4,6 +4,10 @@ Esse é um projeto desenvolvido pela DevMedia. A proposta desse projeto é criar
 ## Objetivo
 A proposta desse projeto é criar uma página utilizando os conceitos abaixo:
   - Utilizar tags HTML básicas;
+  - Background;
+  - Flexbox;
+  - Boxmodel;
+  - Navegação entre páginas;
   - Estilizar uma página.
 
 Neste projeto não exploraremos a parte responsiva do CSS (adaptação para telas de celular) para facilitar o processo de aprendizado/prática.
